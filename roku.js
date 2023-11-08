@@ -138,7 +138,7 @@ function drawFlakes() {
             f.y = 0;
             f.x = Math.random() * width;
             f.size = Math.random() * size + 10;
-            f.text = Math.random() <.05 ? "Chaneru" : "Roku";
+            f.text = Math.random() <.1 ? "Chaneru" : "Roku";
         }
     }
     ctx.drawImage(f_canvas, 0, 0);
